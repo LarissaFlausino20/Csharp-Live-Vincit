@@ -1,0 +1,29 @@
+//Estrutura de um programa
+//1. bibliotecas* (componentes que auxiliam a programação).
+//Ex: NF-e)
+
+//2. Variáveis (espaços de memória temporários)
+
+//3. Estrutura do programa (INICIO e FIM)
+
+//Programa para ler o ano de nascimento e informar IDADE
+//Uma variável para guardar o ano de nascimento
+
+int dataNascimento; 
+int anoAtual = 2024;
+int minhaIdade;
+
+//Entrada e Processamento de Saída 
+//WriteLine = Escreva Linha
+//ReadLine = Ler Linha
+Console.WriteLine ("Informe seu ano de nascimento");
+dataNascimento = int.Parse(Console.ReadLine());
+
+//Processamento
+minhaIdade = anoAtual - dataNascimento;
+
+//Saída
+Console.WriteLine("A sua idade é:");
+Console.WriteLine(minhaIdade);
+
+Console.ReadKey();
